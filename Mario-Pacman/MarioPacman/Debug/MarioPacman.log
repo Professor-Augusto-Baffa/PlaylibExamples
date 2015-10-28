@@ -1,0 +1,49 @@
+﻿Build started 24/07/2013 19:00:16.
+     1>Project "C:\Users\Edirlei\Desktop\Thomaz_Bruno_Bernardo\Mario-Pacman\MarioPacman\MarioPacman.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\MarioPacman.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\PlayLib\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>c:\users\edirlei\desktop\thomaz_bruno_bernardo\mario-pacman\mariopacman\main.cpp(56): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\edirlei\desktop\thomaz_bruno_bernardo\mario-pacman\mariopacman\main.cpp(323): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\edirlei\desktop\thomaz_bruno_bernardo\mario-pacman\mariopacman\main.cpp(323): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\edirlei\desktop\thomaz_bruno_bernardo\mario-pacman\mariopacman\main.cpp(326): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\edirlei\desktop\thomaz_bruno_bernardo\mario-pacman\mariopacman\main.cpp(326): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\edirlei\desktop\thomaz_bruno_bernardo\mario-pacman\mariopacman\main.cpp(327): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\edirlei\desktop\thomaz_bruno_bernardo\mario-pacman\mariopacman\main.cpp(327): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\edirlei\desktop\thomaz_bruno_bernardo\mario-pacman\mariopacman\main.cpp(328): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\edirlei\desktop\thomaz_bruno_bernardo\mario-pacman\mariopacman\main.cpp(328): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\edirlei\desktop\thomaz_bruno_bernardo\mario-pacman\mariopacman\main.cpp(330): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\edirlei\desktop\thomaz_bruno_bernardo\mario-pacman\mariopacman\main.cpp(330): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\edirlei\desktop\thomaz_bruno_bernardo\mario-pacman\mariopacman\main.cpp(330): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\edirlei\desktop\thomaz_bruno_bernardo\mario-pacman\mariopacman\main.cpp(330): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\edirlei\desktop\thomaz_bruno_bernardo\mario-pacman\mariopacman\main.cpp(334): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\edirlei\desktop\thomaz_bruno_bernardo\mario-pacman\mariopacman\main.cpp(334): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\edirlei\desktop\thomaz_bruno_bernardo\mario-pacman\mariopacman\main.cpp(334): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\edirlei\desktop\thomaz_bruno_bernardo\mario-pacman\mariopacman\main.cpp(334): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\edirlei\desktop\thomaz_bruno_bernardo\mario-pacman\mariopacman\main.cpp(338): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\edirlei\desktop\thomaz_bruno_bernardo\mario-pacman\mariopacman\main.cpp(338): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\edirlei\desktop\thomaz_bruno_bernardo\mario-pacman\mariopacman\main.cpp(338): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\edirlei\desktop\thomaz_bruno_bernardo\mario-pacman\mariopacman\main.cpp(338): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\edirlei\desktop\thomaz_bruno_bernardo\mario-pacman\mariopacman\main.cpp(395): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Edirlei\Desktop\Thomaz_Bruno_Bernardo\Mario-Pacman\Debug\MarioPacman.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\PlayLib\lib PlayLib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MarioPacman.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Edirlei\Desktop\Thomaz_Bruno_Bernardo\Mario-Pacman\Debug\MarioPacman.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Edirlei\Desktop\Thomaz_Bruno_Bernardo\Mario-Pacman\Debug\MarioPacman.lib" /MACHINE:X86 Debug\Main.obj
+     1>Main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         PlayLib.lib(Graphics.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>Main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+         MarioPacman.vcxproj -> C:\Users\Edirlei\Desktop\Thomaz_Bruno_Bernardo\Mario-Pacman\Debug\MarioPacman.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Edirlei\Desktop\Thomaz_Bruno_Bernardo\Mario-Pacman\Debug\MarioPacman.exe;#1" /manifest Debug\MarioPacman.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\MarioPacman.unsuccessfulbuild".
+         Touching "Debug\MarioPacman.lastbuildstate".
+     1>Done Building Project "C:\Users\Edirlei\Desktop\Thomaz_Bruno_Bernardo\Mario-Pacman\MarioPacman\MarioPacman.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.57
