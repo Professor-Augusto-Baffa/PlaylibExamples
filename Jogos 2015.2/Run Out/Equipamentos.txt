@@ -1,0 +1,28 @@
+Katana: arma de médio alcance. Muito perigosa, um corte é o suficiente para matar um fantasma de nível 1. Dual wield talvez?
+Machado: arma de médio alcance. Pode ser facilmente encontrado nos corredores dos prédios. Tem a mesma eficiência que uma katana, porém a resistência é muito baixa.
+Faca: arma de curto alcance. Pode ser perigoso utiliza-la, porem a resistência aumentada talvez compense. Pode ser encontrada no refeitório. Dual wield talvez?
+Manopla, codinome xxxx: arma de curto alcance. Tem uma força maior, ao custo do alcance.
+Ranged weapons
+Arco/besta: arma de longo alcance. Dano normal, porém tem um determinado numero de flechas carregadas. Torna-se inútil sem munição
+Coilgun: arma de longo alcance. Dano normal, porem sua munição é capaz de perfurar inimigos e acertar o que está atrás.
+Bumerangue: arma de longo alcance. Permite atingir inimigos em área. Retorna ao player algumas vezes antes de se quebrar.
+Armas de fogo: diversos modelos de armas de fogo existentes. Longo alcance, dano normal. 
+Escudos
+Guarda chuva: escudo de baixa resistência. Permite que o jogador correndo atravesse zonas lotadas.
+Escudo: escudo de boa resistência. Permite que o jogador atravesse zonas lotadas. Não é possível atacar enquanto tiver 
+
+vetor float equip[dano, resistencia/municao, chance GC]
+//talvez a quantidade de muniçao/resitencia fique no struct dos equipamentos. Um equipamento dropado pode
+ser pego novamente?
+
+
+equip_katana[]
+equip_machado[]
+equip_faca[]
+equip_manopla[]
+equip_arco[]
+equip_coilgun[]
+equip_pistola[]
+equip_escudo[]
+equip_guardachuva[]
+

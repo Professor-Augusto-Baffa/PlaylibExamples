@@ -1,0 +1,105 @@
+	/*if (salas_jogo[num_sala].visitada == false)
+		{
+			salas_jogo[num_sala].visitada == true;
+
+			if (personagem->animation_clip == 0)
+				sala->matriz_mapa[(int)((((personagem->y-10))/32))][(int)(personagem->x)/32];
+
+			else if (personagem->animation_clip == 1)
+				sala->matriz_mapa[(int)((((personagem->y))/32))][(int)(personagem->x-20)/32];
+
+			else if (personagem->animation_clip == 2)
+				sala->matriz_mapa[(int)((((personagem->y))/32))][(int)(personagem->x+20)/32];
+
+			else if (personagem->animation_clip == 3)
+				sala->matriz_mapa[(int)((((personagem->y+20))/32))][(int)(personagem->x)/32];
+*/
+			//salas_jogo[num_sala] = blocoA1; //copia o modelo para o vetor de salas do jogo
+			//*sala = salas_jogo[num_sala]; //passa o endereço de uma sala especifica para manipulação no jogo
+/*}*/
+
+
+//void MoveEnemy1()
+//{
+//	int g = 1;
+//	monstro.animation_clip = rand() % 4;
+//	bool next_frame = false;
+//    monstro.time_next_frame = monstro.time_next_frame + dt;
+//
+//    if (monstro.animation_clip == 3) //left
+//    {
+//        if (Mapa[(int)((((monstro.x + 24))/24))][((int)(monstro.y + 12)/24)] == 'x')
+//        {
+//            monstro.animation_clip = rand() % 4;
+//        }
+//        else
+//        {
+//            monstro.x -= monstro.velocidade * graphics.GetElapsedTime();
+//			monstro.animation_clip = 3;
+//			next_frame = true;
+//        
+//        }
+//    }
+//    else if (monstro.animation_clip == 1) //right
+//    {
+//        if (Mapa[(int)(((monstro.x)/24))][(int)((monstro.y + 12)/24)] == 'x')
+//        {
+//            monstro.animation_clip = rand() % 4;
+//        }
+//        else
+//        {
+//            monstro.x += monstro.velocidade * graphics.GetElapsedTime();
+//			monstro.animation_clip = 1;
+//			next_frame = true;
+//        }
+//    }
+//    if (monstro.animation_clip == 2) //down
+//    {
+//        if (Mapa[(int)((((monstro.x + 12))/24))][(int)(monstro.y)/24] == 'x')
+//        {
+//            monstro.animation_clip = rand() % 4;
+//        }
+//        else
+//        {
+//            monstro.y -= monstro.velocidade * graphics.GetElapsedTime();
+//			monstro.animation_clip = 2;
+//			next_frame = true;
+//        }
+//    }
+//    if (monstro.animation_clip == 0)//up
+//    {
+//        if (Mapa[(int)((((monstro.x + 12))/24))][(int)(monstro.y + 24)/24] == 'x')
+//        {
+//            monstro.animation_clip = rand() % 4;
+//        }
+//        else
+//        {
+//            monstro.y += monstro.velocidade * graphics.GetElapsedTime();
+//			monstro.animation_clip = 0;
+//			next_frame = true;
+//        }
+//    }
+//
+//	  if (next_frame)
+//    {
+//        if (monstro.time_next_frame > 0.1)
+//        {
+//            monstro.animation_index++;
+//            monstro.time_next_frame = 0;
+//        }
+//        if (monstro.animation_index > 3)
+//           monstro.animation_index = 0;
+//    }
+//
+//	  if(projetil_magico[g].disparo)
+//	  {
+//		  if (Collision(projetil_magico[g].x+10, projetil_magico[g].+10, monstro.x, monstro.y, monstro.x+56, monstro.y+80))
+//		  {
+//				monstro.vida--;
+//				projetil_magico[g].disparo=false;
+//		  }
+//	  }
+// 
+//	  if (monstro.vida>0)
+//			graphics.DrawImage2D(monstro.x, monstro.y, 56, 80, matriz_monstro[monstro.animation_clip][monstro.animation_index].x, matriz_monstro[monstro.animation_clip][monstro.animation_index].y, matriz_monstro[monstro.animation_clip][monstro.animation_index].width, matriz_monstro[monstro.animation_clip][monstro.animation_index].height, sheet_monstro);
+//

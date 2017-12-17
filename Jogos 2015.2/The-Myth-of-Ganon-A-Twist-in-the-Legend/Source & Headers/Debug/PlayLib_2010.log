@@ -1,0 +1,43 @@
+﻿Build started 2015-12-02 12:18:12 PM.
+     1>Project "Z:\Projects\The-Myth-of-Ganon-A-Twist-in-the-Legend\Source & Headers\PlayLib_2010.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\The Myth of Ganon - A Twist in the Legend.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"Z:\Projects\The-Myth-of-Ganon-A-Twist-in-the-Legend\Source & Headers\etc" /I"Z:\Projects\The-Myth-of-Ganon-A-Twist-in-the-Legend\Source & Headers\Headers" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Source\Button.cpp
+         Button.cpp
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\Projects\The-Myth-of-Ganon-A-Twist-in-the-Legend\Source & Headers\Debug\The Myth of Ganon - A Twist in the Legend.exe" /INCREMENTAL /NOLOGO PlayLib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\The Myth of Ganon - A Twist in the Legend.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\Projects\The-Myth-of-Ganon-A-Twist-in-the-Legend\Source & Headers\Debug\The Myth of Ganon - A Twist in the Legend.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\Projects\The-Myth-of-Ganon-A-Twist-in-the-Legend\Source & Headers\Debug\The Myth of Ganon - A Twist in the Legend.lib" /MACHINE:X86 "Debug\The Myth of Ganon - A Twist in the Legend.exe.embed.manifest.res"
+         Debug\Door.obj
+         Debug\iGraphics.obj
+         Debug\LiveSprite.obj
+         Debug\Main.obj
+         Debug\SaveState.obj
+         Debug\Button.obj
+         Debug\Sprite.obj
+         Debug\MapParser.obj
+         Debug\StillSprite.obj
+         PlayLib.lib
+         PlayLibd.lib
+         PlayLib.lib(Graphics.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>PlayLib.lib(Graphics.obj) : warning LNK4204: 'Z:\Projects\The-Myth-of-Ganon-A-Twist-in-the-Legend\Source & Headers\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>PlayLib.lib(stb_image.obj) : warning LNK4204: 'Z:\Projects\The-Myth-of-Ganon-A-Twist-in-the-Legend\Source & Headers\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\The Myth of Ganon - A Twist in the Legend.exe.embed.manifest" /manifest "Debug\The Myth of Ganon - A Twist in the Legend.exe.intermediate.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         PlayLib_2010.vcxproj -> Z:\Projects\The-Myth-of-Ganon-A-Twist-in-the-Legend\Source & Headers\Debug\The Myth of Ganon - A Twist in the Legend.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\The Myth of Ganon - A Twist in the Legend.unsuccessfulbuild".
+         Touching "Debug\The Myth of Ganon - A Twist in the Legend.lastbuildstate".
+     1>Done Building Project "Z:\Projects\The-Myth-of-Ganon-A-Twist-in-the-Legend\Source & Headers\PlayLib_2010.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.06

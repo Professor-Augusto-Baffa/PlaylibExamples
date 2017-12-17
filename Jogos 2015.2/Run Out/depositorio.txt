@@ -1,0 +1,17 @@
+	if (KeyState['h'] && arma.status == false)
+	{
+			bala[i].disparo = 1;
+			bala[i].x = 10;
+			bala[i].y = 10;
+			i++; //passa para proxima bala
+	}
+		int f=i;
+
+			if(bala[f].disparo) //desenha a bala se ela tiver ativa
+			{
+				bala[f].y = bala[f].y + dt * bala[f].velocidade;	
+				bala[f].x = bala[f].x + dt * bala[f].velocidade;	
+				graphics.DrawImage2D(bala[f].x, bala[f].y, 32, 32, bala[f].matriz_projetil[0][0].x, bala[f].matriz_projetil[0][0].y, bala[f].matriz_projetil[0][0].width, bala[f].matriz_projetil[0][0].height, bala[f].sheet_projetil);
+
+			}
+		} 

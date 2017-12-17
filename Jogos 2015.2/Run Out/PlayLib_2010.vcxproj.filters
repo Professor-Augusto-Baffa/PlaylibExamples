@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Bibliotecas">
+      <UniqueIdentifier>{b39ea218-feab-401b-8a1c-c514cca0e584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Arquivos do Jogo">
+      <UniqueIdentifier>{72a93ce8-8d0b-4a46-8f49-86364e5f65dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Arquivos do Jogo\Menus">
+      <UniqueIdentifier>{99e3049e-bea9-45fc-bd4c-d19476d08ebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Arquivos do Jogo\Sprites">
+      <UniqueIdentifier>{e023374b-0907-4462-bd8b-a9a3ac2fdc48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Arquivos do Jogo\Audios">
+      <UniqueIdentifier>{dcb2e866-4341-47f2-9806-fcb8368ee24c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Arquivos do Jogo\Mapas">
+      <UniqueIdentifier>{5c77a766-240c-4a43-bde8-c215cafe666d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PlayLib">
+      <UniqueIdentifier>{f19b34f4-db57-49d8-a343-1cc87bd530bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Jogo">
+      <UniqueIdentifier>{adec8b99-8283-453a-88ad-aeb68a2758c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Audio.h">
+      <Filter>Header Files\PlayLib</Filter>
+    </ClInclude>
+    <ClInclude Include="freeglut.h">
+      <Filter>Header Files\PlayLib</Filter>
+    </ClInclude>
+    <ClInclude Include="freeglut_ext.h">
+      <Filter>Header Files\PlayLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files\PlayLib</Filter>
+    </ClInclude>
+    <ClInclude Include="freeglut_std.h">
+      <Filter>Header Files\PlayLib</Filter>
+    </ClInclude>
+    <ClInclude Include="glut.h">
+      <Filter>Header Files\PlayLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Header Files\Jogo</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Header Files\Jogo</Filter>
+    </ClInclude>
+    <ClInclude Include="Maps.h">
+      <Filter>Header Files\PlayLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Auxiliar.h">
+      <Filter>Header Files\Jogo</Filter>
+    </ClInclude>
+    <ClInclude Include="teste.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bass.dll">
+      <Filter>Resource Files\Bibliotecas</Filter>
+    </None>
+    <None Include="freeglut.dll">
+      <Filter>Resource Files\Bibliotecas</Filter>
+    </None>
+    <None Include="glu32.dll">
+      <Filter>Resource Files\Bibliotecas</Filter>
+    </None>
+    <None Include="opengl32.dll">
+      <Filter>Resource Files\Bibliotecas</Filter>
+    </None>
+    <None Include="spritesheet_setsuna.png">
+      <Filter>Resource Files\Arquivos do Jogo\Sprites</Filter>
+    </None>
+    <None Include="mapa.png">
+      <Filter>Resource Files\Arquivos do Jogo\Mapas</Filter>
+    </None>
+    <None Include="spritesheet_asuna.png">
+      <Filter>Resource Files\Arquivos do Jogo\Sprites</Filter>
+    </None>
+    <None Include="Data\Imagens\Menus\menu_(pressione enter 80porcento).png">
+      <Filter>Resource Files\Arquivos do Jogo\Menus</Filter>
+    </None>
+    <None Include="Data\Imagens\Menus\menu_entrada(pressione enter 100porcento).png">
+      <Filter>Resource Files\Arquivos do Jogo\Menus</Filter>
+    </None>
+    <None Include="Data\Imagens\Menus\menu_entrada(sem pressione enter).png">
+      <Filter>Resource Files\Arquivos do Jogo\Menus</Filter>
+    </None>
+    <None Include="Data\Imagens\Menus\menu_principal(jogar selecionado).png">
+      <Filter>Resource Files\Arquivos do Jogo\Menus</Filter>
+    </None>
+    <None Include="Data\Imagens\Menus\menu_principal(opcoes selecionado).png">
+      <Filter>Resource Files\Arquivos do Jogo\Menus</Filter>
+    </None>
+    <None Include="Data\Imagens\Menus\menu_principal(sair selecionado).png">
+      <Filter>Resource Files\Arquivos do Jogo\Menus</Filter>
+    </None>
+    <None Include="Data\Imagens\Menus\menu_principal.png">
+      <Filter>Resource Files\Arquivos do Jogo\Menus</Filter>
+    </None>
+    <None Include="Data\Audios\pandora(menu_principal).mp3">
+      <Filter>Resource Files\Arquivos do Jogo\Audios</Filter>
+    </None>
+    <None Include="Data\Audios\timer(menu_entrada).mp3">
+      <Filter>Resource Files\Arquivos do Jogo\Audios</Filter>
+    </None>
+    <None Include="Data\Imagens\Menus\reaper.png">
+      <Filter>Resource Files\Arquivos do Jogo\Menus</Filter>
+    </None>
+    <None Include="Data\Imagens\Menus\menu_opcoes(ligada).png">
+      <Filter>Resource Files\Arquivos do Jogo\Menus</Filter>
+    </None>
+    <None Include="Data\Imagens\Menus\menu_opcoes(desligada).png">
+      <Filter>Resource Files\Arquivos do Jogo\Menus</Filter>
+    </None>
+    <None Include="Data\Imagens\Menus\menu_opcoes(voltar selecionado).png">
+      <Filter>Resource Files\Arquivos do Jogo\Menus</Filter>
+    </None>
+    <None Include="Data\Imagens\Menus\menu_dificuldade(facil).png">
+      <Filter>Resource Files\Arquivos do Jogo\Menus</Filter>
+    </None>
+    <None Include="Data\Imagens\Menus\menu_dificuldade(medio).png">
+      <Filter>Resource Files\Arquivos do Jogo\Menus</Filter>
+    </None>
+    <None Include="Data\Imagens\Menus\menu_dificuldade(noite).png">
+      <Filter>Resource Files\Arquivos do Jogo\Menus</Filter>
+    </None>
+    <None Include="Data\Imagens\Menus\menu_dificuldade(selecionar).png">
+      <Filter>Resource Files\Arquivos do Jogo\Menus</Filter>
+    </None>
+    <None Include="Data\Imagens\Menus\menu_dificuldade(voltar).png">
+      <Filter>Resource Files\Arquivos do Jogo\Menus</Filter>
+    </None>
+    <None Include="Data\Imagens\Sprites\sheet_amanda.png">
+      <Filter>Resource Files\Arquivos do Jogo\Sprites</Filter>
+    </None>
+    <None Include="Data\Imagens\Sprites\sheet_luis.png">
+      <Filter>Resource Files\Arquivos do Jogo\Sprites</Filter>
+    </None>
+    <None Include="Data\Imagens\Sprites\sheet_marcelo.png">
+      <Filter>Resource Files\Arquivos do Jogo\Sprites</Filter>
+    </None>
+    <None Include="Data\Imagens\Menus\menu_personagem(selecionar).png">
+      <Filter>Resource Files\Arquivos do Jogo\Menus</Filter>
+    </None>
+    <None Include="Data\Imagens\Menus\menu_personagem(voltar).png">
+      <Filter>Resource Files\Arquivos do Jogo\Menus</Filter>
+    </None>
+    <None Include="Data\Imagens\Menus\menu_personagem(amanda-lar).png">
+      <Filter>Resource Files\Arquivos do Jogo\Menus</Filter>
+    </None>
+    <None Include="Data\Imagens\Menus\menu_personagem(amandaminiatura).png">
+      <Filter>Resource Files\Arquivos do Jogo\Menus</Filter>
+    </None>
+    <None Include="Data\Imagens\Menus\menu_personagem(luis-lar).png">
+      <Filter>Resource Files\Arquivos do Jogo\Menus</Filter>
+    </None>
+    <None Include="Data\Imagens\Menus\menu_personagem(luisminiatura).png">
+      <Filter>Resource Files\Arquivos do Jogo\Menus</Filter>
+    </None>
+    <None Include="Data\Imagens\Menus\menu_personagem(marcelo-lar).png">
+      <Filter>Resource Files\Arquivos do Jogo\Menus</Filter>
+    </None>
+    <None Include="Data\Imagens\Menus\menu_personagem(marcelominiatura).png">
+      <Filter>Resource Files\Arquivos do Jogo\Menus</Filter>
+    </None>
+    <None Include="Data\Audios\Black Vortex.mp3">
+      <Filter>Resource Files\Arquivos do Jogo\Audios</Filter>
+    </None>
+    <None Include="Equipamentos.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="structs.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="depositorio.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Data\Mapas\mapa_sala.txt">
+      <Filter>Resource Files\Arquivos do Jogo\Mapas</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="PlayLibd.lib">
+      <Filter>Resource Files\Bibliotecas</Filter>
+    </Library>
+    <Library Include="PlayLib.lib">
+      <Filter>Resource Files\Bibliotecas</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Maps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="run_out2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Auxiliar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,18 @@
+- Temples -
+000000
+- Heart containers -
+00000000000000000
+- Hearts -
+3
+- Mana -
+100.0
+- Max mana -
+100.0
+- Max stamina -
+100.0
+- Rupees -
+0
+- Spells -
+111
+- Easter eggs -
+0000001

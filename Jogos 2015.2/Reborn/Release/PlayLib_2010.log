@@ -1,0 +1,30 @@
+﻿Build started 6/11/2015 11:46:00.
+     1>Project "C:\Documents and Settings\Eee-PC\Desktop\PlayLib_2010\PlayLib_2010.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\PlayLib_2010.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\PlayLib_2010.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Arquivos de programas\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>Main.cpp(70): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Main.cpp(70): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+       Link:
+         C:\Arquivos de programas\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\Eee-PC\Desktop\PlayLib_2010\Release\PlayLib_2010.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\PlayLib_2010.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\Eee-PC\Desktop\PlayLib_2010\Release\PlayLib_2010.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\Eee-PC\Desktop\PlayLib_2010\Release\PlayLib_2010.lib" /MACHINE:X86 Release\Main.obj
+         PlayLib.lib
+         PlayLibd.lib
+         Generating code
+         Finished generating code
+     1>PlayLib.lib(Graphics.obj) : warning LNK4204: 'C:\Documents and Settings\Eee-PC\Desktop\PlayLib_2010\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>PlayLib.lib(stb_image.obj) : warning LNK4204: 'C:\Documents and Settings\Eee-PC\Desktop\PlayLib_2010\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         PlayLib_2010.vcxproj -> C:\Documents and Settings\Eee-PC\Desktop\PlayLib_2010\Release\PlayLib_2010.exe
+       Manifest:
+         C:\Arquivos de programas\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Documents and Settings\Eee-PC\Desktop\PlayLib_2010\Release\PlayLib_2010.exe;#1" /manifest Release\PlayLib_2010.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\PlayLib_2010.unsuccessfulbuild".
+         Touching "Release\PlayLib_2010.lastbuildstate".
+     1>Done Building Project "C:\Documents and Settings\Eee-PC\Desktop\PlayLib_2010\PlayLib_2010.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.75
