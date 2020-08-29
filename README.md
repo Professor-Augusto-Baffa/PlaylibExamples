@@ -5,6 +5,8 @@ The PlayLib is designed to be very lightweight and easy to use, which serves bot
 
 The PlayLib graphics library was created and is maintained by ICAD Games / VisionLab Laboratories from the Department of Informatics at PUC-Rio University.
 
+http://playlib.inf.puc-rio.br/
+
 Examples of Playlib applications and games
 -
 This repository presents many Playlib examples to assist during classes.
